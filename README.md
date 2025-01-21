@@ -11,9 +11,13 @@ bash
 Copy 
 Edit 
 root/ 
+
 ├── public/wasm/        # WebAssembly files (sorting.js, sorting.wasm, sorting.cpp) 
+
 ├── src/components/    # React components 
+
 ├── tailwind.config.js # Tailwind CSS configuration 
+
 └── package.json       # Dependencies and scripts 
 
 Setup Instructions 
