@@ -1,18 +1,19 @@
 **Features**
 
-🌟 Interactive UI with animations using React and Tailwind CSS.
-🚀 C++ Sorting Simulation compiled to WebAssembly.
-📦 Dynamically loads WebAssembly for high performance and seamless integration.
-Project Structure
-bash
-Copy
-Edit
-root/
-├── public/wasm/       # WebAssembly files (sorting.js, sorting.wasm, sorting.cpp)
-├── src/components/    # React components
-├── tailwind.config.js # Tailwind CSS configuration
-└── package.json       # Dependencies and scripts
-Setup Instructions
+🌟 Interactive UI with animations using React and Tailwind CSS. 
+🚀 C++ Sorting Simulation compiled to WebAssembly. 
+📦 Dynamically loads WebAssembly for high performance and seamless integration. 
+Project Structure 
+bash 
+Copy 
+Edit 
+root/ 
+├── public/wasm/        # WebAssembly files (sorting.js, sorting.wasm, sorting.cpp) 
+├── src/components/    # React components 
+├── tailwind.config.js # Tailwind CSS configuration 
+└── package.json       # Dependencies and scripts 
+
+Setup Instructions 
 1. **Clone the Repository**
 bash
 Copy
