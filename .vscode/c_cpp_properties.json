@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Emscripten",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/libc",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/libcxx",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/libcxxabi",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/compat",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/lib/libc/musl/include",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/emscripten",
+                "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/lib"
+            ],
+            "defines": [
+                "__EMSCRIPTEN__"
+            ],
+            "compilerPath": "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/em++.bat",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-clang-x64",
+            "browse": {
+                "path": [
+                    "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

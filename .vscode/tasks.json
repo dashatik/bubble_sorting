@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build with Emscripten",
+            "command": "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/em++.bat",
+            "args": [
+                "${workspaceFolder}/wasm/sorting.cpp",  // Path to your C++ file
+                "-o",
+                "${workspaceFolder}/public/wasm/sorting.js", // Output JavaScript file
+                "-s",
+                "MODULARIZE=1", // Use modularized output
+                "-s",
+                "EXPORTED_RUNTIME_METHODS=['ccall', 'cwrap']", // Expose runtime methods
+                "-O2" // Optimization level for smaller and faster output
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Build C++ file with Emscripten to WebAssembly"
+        }
+    ]
+}

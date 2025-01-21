@@ -1,0 +1,20 @@
+{
+    "C_Cpp.default.compilerPath": "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/em++.bat",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include",
+        "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/libcxx",
+        "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/libcxxabi",
+        "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/compat",
+        "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include/emscripten"
+    ],
+    "C_Cpp.default.defines": [
+        "__EMSCRIPTEN__"
+    ],
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.intelliSenseMode": "windows-clang-x64",
+    "C_Cpp.default.browse.path": [
+        "C:/Users/Dasha/Documents/Resume 2.0/emsdk/upstream/emscripten/system/include"
+    ]
+}

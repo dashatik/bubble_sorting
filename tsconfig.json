@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "jsx": "react-jsx",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "typeRoots": ["./node_modules/@types", "./src/types"], // Include custom types
+        "resolveJsonModule": true, // Allows importing JSON files
+        "allowSyntheticDefaultImports": true, // Simplifies default imports
+        "skipLibCheck": true // Skips checking library files
+    },
+    "include": ["src/**/*"], // Include all files in the src directory
+    "exclude": ["node_modules"] // Exclude node_modules
+}
