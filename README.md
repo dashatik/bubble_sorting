@@ -1,8 +1,11 @@
 **Features**
 
 🌟 Interactive UI with animations using React and Tailwind CSS. 
+
 🚀 C++ Sorting Simulation compiled to WebAssembly. 
+
 📦 Dynamically loads WebAssembly for high performance and seamless integration. 
+
 Project Structure 
 bash 
 Copy 
